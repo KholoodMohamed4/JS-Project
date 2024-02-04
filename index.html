@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WristArc</title>
+        <link rel="stylesheet" href="CSS/all.css">
+        <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/heroes/hero-1/assets/css/hero-1.css" />
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/all.css">
+        <link rel="icon" href="Images/logoTab.png">
+    </head>
+    <body>
+        <!------------------------------------------------------------- Header ---------------------------------------------->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark header p-2">
+                <div class="container-fluid ">
+                  <div class="p-2">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="Images/logo.png" alt="Logo" width="150" height="50">
+                      </a>
+                      
+                  </div>
+                  <div class="d-flex" id="navbarSupportedContent">
+                    
+                    <ul class="Headerinfo navbar-nav ms-auto mb-2 mb-lg-0  ">
+                      <li class="nav-item">
+                        <a class=" nav-link links" aria-current="page" href="signup.html">Sign Up</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class=" nav-link links" href="login.html">Log In</a>
+                      </li>
+
+                     
+                  </ul>
+                  <ul class="UserInfo  navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                      <a href="#" id="User" class="USER nav-link"></a>
+                      <div class="logout">
+                        <a href="">Log Out</a>
+                      </div>
+                    
+                    </li>
+                    <li class="nav-item">
+                      <button type="button" class="cartIcon btn position-relative">
+                        <i class="fas fa-shopping-cart" style="color: #fff; font-size: 20px;"></i>
+                        <span class="cartCount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          0
+                          <span class="visually-hidden">unread messages</span>
+                        </span>
+                      </button>
+
+                      <div class="carts_products">
+                        <div></div>
+                        <a href="shoppingcart.html" >View All Products</a>
+                      </div>
+                    </li>
+                  </ul>
+                   
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!------------------------------------------------------------- Home Page ---------------------------------------------->
+        <main>
+          <!-- Hero 1 - Bootstrap Brain Component -->
+          <section class="bsb-hero-1 px-3 bsb-overlay " style="background-image: url('./Images/Untitled\ design\ \(8\).png '); background-attachment: scroll;">
+            <div class="container " style="height: 31vh;">
+              <div class="row  ">
+                <div class="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-6  text-light">
+                  <h1 class="display-4 fw-bold mb-3">You’re in good <br><span class="mainSep">Hands</span>  on our <br><span class="mainSep">Watch</span></h1>
+                  
+                  <div class="d-grid gap-2 d-sm-flex  ">
+                    <!-- <button type="button" class="btn bsb-btn-3xl btn-light gap-3">Free Consultation</button> -->
+                    <button type="button" class="btn bsb-btn-xl btn-outline-light">SHOP NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+
+        <!------------------------------------------------------------- New Page ---------------------------------------------->
+
+        <section>
+          <div class="container my-5 new">
+            <div class="row">
+             <div class="col-sm-3 mb-4 mb-lg-0 border-0 ">
+              <div class="card border-0 rounded-0 mx-auto mx-lg-0" style="border-radius: 0;">
+                <img class="card-img-top rounded-0" src="./Images/p5.png" width="100" height="300" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title navText text-center">New Arrivals</h4>
+              </div>
+              
+             </div>
+             </div>
+             
+             <div class="col-sm-6  mb-4 mb-lg-0">
+              <div class="card border-0 rounded-0 mx-auto mx-lg-0" style="border-radius: 0;">
+                <img class="card-img-top rounded-0" src="./Images/download (4).jpeg" width="300" height="300" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title navText text-center">New Collection</h4>
+                  
+    
+                </div>
+              </div>
+              
+             </div>
+    
+    
+             <div class="col-sm-3  mb-0">
+              <div class="card border-0 rounded-0 mx-auto mx-lg-0" style="border-radius: 0;">
+                <img class="card-img-top rounded-0" src="images/p3.jpg" width="300" height="300"  alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title navText text-center">Sale</h4>
+                  
+                  
+                </div>
+              </div>
+              
+             </div>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!------------------------------------------------------------- Products Page ---------------------------------------------->
+        <section>
+          <div class="search-box">
+            <select class="custom-select m-2">
+                <option selected>Search by Name</option>
+                <option value="1">Search by Category</option>
+              </select>
+            <input type="text" placeholder="Search" class="form-control m-2 search">
+        </div>
+
+          <div class="container-fluid" style="background-color: var(--bg-color);" >
+            <p style="text-align: center; font-size: 25px; padding-top: 30px;">Shop <span style="color: #A67314;">Now</span></p>
+            <h2 style="font-weight: bold; text-align: center;">Great Deals from Top-Rated Products</h2>
+            <div class="products">
+
+              
+              <div class="productsContainer row d-flex justify-content-center">
+                
+                <div class="col-sm-10 col-md-5 col-lg-3 mx-md-2 my-3">
+                  <div class="productItem mx-sm-auto">
+                    <img src="Images/f2.jpg" class="mb-3"  alt="Product image" width="100%" height="200">
+                    <h4>Utsav Blue</h4>
+                    <h6>Dial Watch</h6>
+                    <p class="sepPrice"> $6200 </p>
+                    <i class="heart fas fa-heart"></i>
+                    <button class="cartBtn btn  cart-button px-5 text-light" style="background-color: var(--MainColor);">
+                       Add to cart 
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="JS/signup.js"></script>
+        <script src="JS/script.js"></script>
+        <script src="JS/user.js"></script> 
+        
+        
+    </body>
+</html>

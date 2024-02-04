@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.FavCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    /* background-color: lightgray; */
+    border-radius: 25px;
+}
+.mySwiper{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+
+}
+.swiper-container{
+    margin: 0 40px;
+    overflow: hidden;
+}
+.swiper-slide{
+    position: relative;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.swiper-slide .box{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.box .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+}
+.box .img img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.box .info{
+    padding: 10px;
+    text-align: center;
+
+}
+.box .info h2{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: text;
+    margin-bottom: 5px;
+}
+.box .info p{
+    font-size: 16px;
+    
+    cursor: text;
+
+}
+/* .swiper-slide:hover{
+    
+    transform: translateY(-5px)
+} */
+.heartt{
+    position: absolute;
+    top:20px;
+    right: 30px;
+    color: red;
+    font-size: 1.8rem !important;
+    background-color: transparent;
+}
